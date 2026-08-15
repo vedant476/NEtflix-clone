@@ -3,15 +3,20 @@
 A full-featured Netflix-inspired streaming web application built with React, Firebase, and the OMDb API. This isn't just another basic clone — it has real authentication, route protection, a full Netflix India-style landing page, cloud-synced watchlist in Firestore, live search, and a cinematic UI that actually feels like Netflix.
 
 <br/>
+---
+## 📸 Screenshots
 
-<!--  SCREENSHOT PLACEHOLDER — replace with your actual screenshots -->
-<!-- ![Landing Page](./screenshots/landing.png) -->
-<!-- ![Home Page](./screenshots/home.png) -->
-<!-- ![Browse / Search](./screenshots/browse.png) -->
-<!-- ![Watchlist](./screenshots/watchlist.png) -->
-<!-- ![Login Page](./screenshots/login.png) -->
+| Landing Page | Home Page |
+|---|---|
+| ![Landing Page](./screenshots/landing.png) | ![Home Page](./screenshots/home.png) |
 
-> **Note:** Screenshots can be added by placing images in the `./screenshots/` folder and uncommenting the lines above.
+| Browse / Search | Watchlist |
+|---|---|
+| ![Browse / Search](./screenshots/browse.png) | ![Watchlist](./screenshots/watchlist.png) |
+
+| Login Page |
+|---|
+| ![Login Page](./screenshots/login.png) |
 
 <br/>
 
