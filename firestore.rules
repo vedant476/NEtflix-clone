@@ -1,0 +1,18 @@
+# Firestore Security Rules
+# Firebase Console → Firestore Database → Rules tab mein ye paste karo
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Users apna sirf khud ka watchlist read/write kar sakte hain
+    match /users/{userId}/watchlist/{movieId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Koi bhi doosre ka data access nahi kar sakta
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
